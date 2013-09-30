@@ -1,0 +1,29 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>Currency Wars</title>
+		<link rel="stylesheet" href="/css/styleSheet.css" type="text/javascript"></link>
+
+		<script src="/public/javascripts/jquery.js")></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+
+		<script>
+			socket = io.connect(document.URL);
+			$(function() {
+				socket.emit('set username', "Yolo");
+			});
+		</script>
+
+		<canvas id='canvas'></canvas>
+		<script src="js/declaration.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/lobby.js"></script>
+		<script src="js/currencySelection.js"></script>
+		<script src="js/gamePlay.js"></script>
+		<script src="js/standings.js"></script>
+		<script src="js/stockWars.js"></script>
+
+	</body>
+</html>

@@ -1,2 +1,2 @@
-CurrencyWars
-============
+UofTHacks
+=========
